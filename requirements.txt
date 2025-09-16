@@ -1,5 +1,12 @@
+# Web server
 flask==2.3.3
 gunicorn==21.2.0
-numpy==1.24.3
+
+# ML / Math stack
+numpy==1.26.4
 pillow==10.4.0
-tensorflow==2.15.0
+tensorflow==2.17.0
+
+# Optional (but good to have for stability)
+setuptools>=68.0.0
+wheel
