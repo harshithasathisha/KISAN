@@ -5,8 +5,8 @@ gunicorn==21.2.0
 # ML / Math stack
 numpy==1.26.4
 pillow==10.4.0
-tensorflow==2.17.0
+tensorflow==2.20.0
 
-# Optional (but good to have for stability)
+# Build helpers (avoids compilation issues)
 setuptools>=68.0.0
 wheel
