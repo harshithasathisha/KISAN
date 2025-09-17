@@ -5,8 +5,7 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 from flask import Flask, jsonify, request, render_template, redirect, url_for
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.models import load_model
+from PIL import Image
 
 # -------------------- Paths -------------------- #
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
